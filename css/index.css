@@ -134,7 +134,32 @@ table {
   border-spacing: 0;
 }
 /* Your Code Goes Here */
-@background = #FFFFFF;
-@color = #222222;
-@font = "Roboto", "Arial", "sans-serif";
-@gray-square = #D8D8D8;
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font: 62.5%;
+}
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  background: #9aa5b0;
+  color: #ffffff;
+  align-items: center;
+}
+nav img {
+  height: 20px;
+}
+nav .nav-links {
+  display: none;
+}
+.home-page .jumbotron img {
+  width: 100%;
+}
