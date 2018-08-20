@@ -139,7 +139,7 @@ table {
 }
 html,
 body {
-  font: 62.5%;
+  font-size: 62.5%;
 }
 .container {
   width: 100%;
@@ -154,6 +154,8 @@ nav {
   color: #ffffff;
   align-items: center;
   padding: 5px 10%;
+  font-size: 2.4rem;
+  font-weight: bold;
 }
 nav img {
   height: 20px;
@@ -161,13 +163,78 @@ nav img {
 nav .nav-links {
   display: none;
 }
+.home-page .jumbotron {
+  position: relative;
+}
 .home-page .jumbotron img {
   width: 100%;
 }
 .home-page .jumbotron h1 {
   color: #ffffff;
-  font-size: 3rem;
+  font-size: 6.4rem;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  line-height: 7.5rem;
+}
+.home-page .info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page .info article {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding: 5%;
+  width: 50%;
+}
+.home-page .info article h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #222222;
+  padding: 20px 0;
+}
+.home-page .info article .button {
+  border: 1px solid #222222;
+  display: inline-block;
+  padding: 10px 5%;
+  margin-top: 20px;
+}
+.home-page .info img {
+  padding: 2%;
+  width: 50%;
+  margin: 20px 0;
+}
+.home-page .info :nth-child(3) {
+  order: 1;
+}
+.home-page .projects h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.home-page .projects article {
+  width: 100%;
+  margin: 40px 0;
+}
+.home-page .projects article .img-header {
   position: relative;
-  top: -180px;
-  left: 30px;
+}
+.home-page .projects article .img-header img {
+  width: 100%;
+}
+.home-page .projects article .img-header h1 {
+  border: 1px solid #ffffff;
+  background: #D8D8D8;
+  display: inline-block;
+  padding: 15px 30px;
+  font-weight: normal;
+  position: absolute;
+  bottom: -45px;
+}
+.home-page .projects article p {
+  margin: 50px 20%;
+  font-size: 1.6rem;
+}
+.home-page .projects article:nth-of-type(odd) h1 {
+  right: 0;
 }
