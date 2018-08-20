@@ -148,11 +148,12 @@ body {
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 30px;
   background: #9aa5b0;
   color: #ffffff;
   align-items: center;
+  padding: 5px 10%;
 }
 nav img {
   height: 20px;
@@ -162,4 +163,11 @@ nav .nav-links {
 }
 .home-page .jumbotron img {
   width: 100%;
+}
+.home-page .jumbotron h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  position: relative;
+  top: -180px;
+  left: 30px;
 }
